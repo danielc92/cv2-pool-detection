@@ -25,10 +25,11 @@ pip install cv2 jupyter
 ```
 
 # Tests
-- Detecting contours from various HSV ranges (blue)
-- Filtering contours by area
-- Filtering contours by duplicate (contours within contours)
-- Import image and export result with bounding boxes
+These tests were ran successfully;
+- Import an image and detecting contours using `HSV` colour ranges
+- Eliminating contours below the area threshhold in `config` dict
+- Eliminating contours within other contours (duplicates)
+- Showing image detection results inline notebook, as well as exporting results to `.png`
 - Record coordinates of bounding boxes
 
 # Contributors
