@@ -1,36 +1,39 @@
-# Project Title
-A few sentences about the project.
-What are you building?
-What problem are you trying to solve?
-Who is the project for? Timeframe?
+# Pool Detection
+Detecting pools from aerial imagery using `cv2` library in python.
 
 # Before you get started
-Concepts/Software/Programming modules a user may have to read up on before getting started with this project. eg. 'Read about [neural networks](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?gi=44b811975215) before getting started.'
+Concepts and methods you should know before working with repository.
+1. Understanding the HSV colour space
+2. Trialing and error approach to finding the right colour range for pools
+3. Learning how to draw contours/bounding boxes around objects
+4. Filtering those contours by area to eliminate noise
 
 # Setup
+This project uses `python3`
+
 **How to obtain this repository:**
 ```sh
-git clone https//link.to.this.projects.git-repo
+git clone https://github.com/danielc92/pool-detection.git
 ```
 **Modules/dependencies:**
-- `pandas`
-- `requests`
+- `cv2`
 - `jupyter`
-- `sklearn`
 
 Install the following dependences:
 ```sh
-cd /local/location/of/this/repo
-pip install requirements.txt
+pip install cv2 jupyter
 ```
 
 # Tests
-- Tests performed on this project. What did you do? Which files were used? Was it successful?
+- Detecting contours from various HSV ranges (blue)
+- Filtering contours by area
+- Filtering contours by duplicate (contours within contours)
 
 # Contributors
-- Name of Contributor 1
-- Name of Contributor 2
+- Daniel Corcoran
 
 # Sources
-- Sources for techniques/tutorials used in this project to help newcomers
-- Sources for data used in this project
+- [Aerial Imagery - spookfish](https://spookfish.com)
+- [Contour Features OpenCV Documentation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html)
+- [How to define a threshold value to detect only green colour objects in an image :Opencv [duplicate]](https://stackoverflow.com/questions/47483951/how-to-define-a-threshold-value-to-detect-only-green-colour-objects-in-an-image/47483966#47483966)
+- 
