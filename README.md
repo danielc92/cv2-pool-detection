@@ -3,10 +3,11 @@ Detecting pools from aerial imagery using `cv2` library in python.
 
 # Before you get started
 Concepts and methods you should know before working with repository.
-1. Understanding the HSV colour space
-2. Trial and error approach to finding the right colour range for pools
-3. Learning how to draw contours/bounding boxes around objects
-4. Filtering those contours by area to eliminate noise
+- Basic understand of cv2 library for python3
+- Loading and converting images colour scales
+- Understanding the HSV colour space (hue, saturation, value)
+- Object detection through contours
+- Understanding how to create contours, filter them, draw boundaries around them
 
 # Setup
 This project uses `python3`
