@@ -14,7 +14,7 @@ This project uses `python3`
 
 **How to obtain this repository:**
 ```sh
-git clone https://github.com/danielc92/pool-detection.git
+git clone https://github.com/danielc92/cv2-pool-detection.git
 ```
 **Modules/dependencies:**
 - `cv2`
